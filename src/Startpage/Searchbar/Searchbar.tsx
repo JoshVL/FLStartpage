@@ -38,8 +38,8 @@ const StyledSearchbar = styled.input`
 `;
 
 const SearchIcon = styled.div<{ src: string }>`
-    height: 2.9rem;
-    width: 3.1rem;
+    height: 3rem;
+    width: 3rem;
     margin: auto 10px auto 0;
 
     background: var(--default-color);
@@ -69,7 +69,7 @@ export const Searchbar = () => {
         <StyledSearchbarContainer>
             <SearchIcon src={searchSymbol} />
             <StyledSearchbar
-                placeholder="Always stay clean!"
+                placeholder="Search something!"
                 type="input"
                 onKeyUp={e => e.which === 13 && redirectToSearch(e.currentTarget.value)}
                 autoFocus={true}

@@ -11,19 +11,19 @@ body {
  *   	  Fonts 		  *
  ********************/
 @font-face {
-	font-family: 'Fira Code';
+	font-family: 'Comfortaa';
 	font-style: normal;
 	font-weight: 300;
-	src: local('Fira Code'), url('./FiraCode-Light.woff') format('woff');
+	src: local('Comfortaa'), url('./Comfortaa-Light.woff') format('woff');
 }
 @font-face {
-	font-family: 'Fira Code';
+	font-family: 'Comfortaa';
 	font-style: normal;
 	font-weight: 500;
-	src: local('Fira Code'), url('./FiraCode-Regular.woff') format('woff');
+	src: local('Comfortaa'), url('./Comfortaa-Regular.woff') format('woff');
 }
 body * {
-	font-family: "Fira Code";
+	font-family: "Comfortaa";
 	font-weight: 300;
 }
 
